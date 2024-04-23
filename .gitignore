@@ -1,0 +1,7 @@
+# Default ignored files
+/HydrogenCompiler/shelf/
+/HydrogenCompiler/workspace.xml
+/HydrogenCompiler/.gradle/
+/HydrogenCompiler/.idea/
+/HydrogenCompiler/build/
+/HydrogenCompiler/gradle/

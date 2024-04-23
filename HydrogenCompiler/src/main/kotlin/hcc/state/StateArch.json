@@ -1,0 +1,27 @@
+{
+  "Index": {
+    "HyFile" : {
+      "Name": "File Name",
+      "Path": "File",
+      "Lines": "List(String)",
+      "Files": "List(HyFile)"
+    }
+  },
+
+  "State": {
+    "fun isApplicable": "Determines if the state is applicable from dependencies",
+    "fun execute": "Run business logic",
+    "fun output: T": "returns StateModel"
+  },
+
+  "StateModel": {},
+
+  "StateManager" : {
+    "fun runState": "state.execute()",
+    "fun evaluate": "state = StateEvaluator.evaluate(state.output())"
+  },
+
+  "StateEvaluator": {
+    "fun evaluate(model: StateModel)": "State"
+  }
+}
